@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>忍店輪胎 - 常用查詢</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Microsoft JhengHei',sans-serif;background:#f0f2f5;min-height:100vh;display:flex;flex-direction:column}
+.hero{background:linear-gradient(135deg,#1a2a3a 0%,#2c3e50 60%,#1a2a3a 100%);padding:55px 20px;text-align:center}
+.hero h1{font-size:2.2rem;color:#fff;letter-spacing:4px;text-shadow:2px 2px 8px rgba(0,0,0,.5)}
+.hero p{color:#aac;margin-top:10px;font-size:1rem;letter-spacing:1px}
+.container{max-width:860px;margin:60px auto;padding:0 20px;flex:1}
+.cards{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+.card{flex:1;min-width:260px;max-width:380px;background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.09);padding:40px 32px;text-align:center;text-decoration:none;color:inherit;transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column;align-items:center;gap:18px}
+.card:hover{transform:translateY(-6px);box-shadow:0 10px 36px rgba(0,0,0,.15)}
+.card-icon{width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem}
+.card-icon.blue{background:#e8f0fe}
+.card-icon.green{background:#e6f4ea}
+.card h2{font-size:1.15rem;color:#1a2a3a;letter-spacing:1px}
+.card p{font-size:.9rem;color:#888;line-height:1.7}
+.card .btn{margin-top:8px;padding:10px 28px;border-radius:30px;font-size:.95rem;font-weight:bold;text-decoration:none;display:inline-block;transition:opacity .15s}
+.btn-blue{background:#4a6fa5;color:#fff}
+.btn-green{background:#3a8a5a;color:#fff}
+.btn:hover{opacity:.85}
+footer{background:#1a2a3a;color:#888;text-align:center;padding:18px;font-size:.85rem;margin-top:40px}
+@media(max-width:600px){.hero h1{font-size:1.5rem;letter-spacing:2px}.cards{flex-direction:column;align-items:center}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>忍店輪胎 常用查詢</h1>
+  <p>快速連結至政府機關查詢系統</p>
+</div>
+<div class="container">
+  <div class="cards">
+    <a class="card" href="https://ecard.cali.org.tw/PPCP_QRY/" target="_blank" rel="noopener">
+      <div class="card-icon blue">🛡️</div>
+      <h2>強制險查詢</h2>
+      <p>查詢車輛強制汽車責任保險<br>投保狀態與有效期限</p>
+      <span class="btn btn-blue">立即查詢</span>
+    </a>
+    <a class="card" href="https://mobile.moenv.gov.tw/Motor/query/Query_Check.aspx" target="_blank" rel="noopener">
+      <div class="card-icon green">🌿</div>
+      <h2>排氣檢驗查詢</h2>
+      <p>查詢車輛排氣定期檢驗<br>結果與到期日</p>
+      <span class="btn btn-green">立即查詢</span>
+    </a>
+  </div>
+</div>
+<footer>忍店輪胎 &copy; 2026</footer>
+</body>
+</html>
